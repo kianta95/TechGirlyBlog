@@ -1,0 +1,63 @@
+body {
+    font-family: Delicious Handrawn;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #ee00ff;
+    color: #fffb00;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: right;
+}
+
+/* main {
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.container img {
+    max-width: 50%;
+    max-height: 50%;
+    margin-top: 25px;
+
+}
+
+.containertwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#blogForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: solid green 15px;
+}
+
+footer {
+    background-color: #00f7ff;
+    color: #000000;
+    font-size: x-large;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
